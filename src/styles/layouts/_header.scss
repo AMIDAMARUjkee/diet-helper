@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: red;
+  width: 100%;
+
+  &__logo {
+    width: 50px;
+  }
+
+  &__navbar {
+    &-list {
+      display: flex;
+      gap: 50px;
+      list-style: none;
+    }
+  }
+}
